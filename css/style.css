@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.layer1 {
+    width: 400px;
+    border: solid #FFB534;
+    border-width: 1px;
+    border-radius: 7px;
+    margin-top: 50px;
+    margin-left: 33.33%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header {
+    background-color: #FFB534;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+header h3 {
+    color: white;
+}
+
+.layer2 {
+    background-color: #F8FDCF;
+    border: solid #FFB534;
+    border-width: 1px;
+    border-radius: 7px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.layer4 {
+    margin-bottom: 50px;
+}
+
+div p {
+    font-size: small;
+    margin-top: -10px;
+}
+
+div h4 {
+    background-color: #FFB534;
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    margin-top: -5px;
+}
+
+div img {
+    width: 100px;
+    height: 100px;
+    margin-top: -20px;
+}
+
+#p1 {
+    text-align: left;
+    margin-left: 15px;
+
+}
+
+p span {
+    font-weight: bold;
+}
+
+.label1 {
+    display: block;
+    font-weight: bold;
+}
+
+.input1 {
+    border: solid #FFB534;
+    border-width: 1px;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 10px;
+    
+}
+.input1:focus {
+    border: solid #FFB534;
+    border-width: 1px;
+    border-radius: 7px;
+}
+
+.input1:hover {
+    border: solid #FFB534;
+    border-width: 1px;
+    border-radius: 7px;
+}
+
+.input1:active {
+    border: solid #FFB534;
+    border-width: 1px;
+    border-radius: 7px;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    margin-top: 7px;
+    border-radius: 5px;
+    background-color: #FFB534;
+    color: black;
+    cursor: pointer;
+}
+
+button:focus {
+    background-color: #FFA732;
+    color: black;
+}
+
+button:hover {
+    background-color: #FB8B24;
+    color: black;
+}
+
+button:active {
+    background-color: #FFA732;
+    color: black;
+    transform: translateY(2px);
+}
+
+#ButtonReset {
+    background-color: red;
+    color: white;
+}
+
+#ButtonReset:hover {
+    background-color: #FF004D;
+    color: white;
+}
