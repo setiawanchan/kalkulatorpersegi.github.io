@@ -26,13 +26,19 @@
                     S : Sisi
                 </p>
                 <div class="layer4">
+                    <form id = "myForm" action = "#">
                     <label for="InputHitung" class="label1">Hitung Luas Persegi</label>
                     <input type="number" name="" id="InputHitung" class="input1"> <br>
-                    <button>Hitung</button>
-                    <button id="ButtonReset">Reset</button>
+                    <button onclick="persegi()">Hitung</button>
+                    <button id="ButtonReset" onclick="reset()">Reset</button>
+                    <br>
+                    <div class="hasil" id="num"></div>
+                    <div class="hasil" id="num1"></div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
